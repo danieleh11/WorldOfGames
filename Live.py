@@ -1,3 +1,6 @@
+from Utils import screen_cleaner
+
+
 def welcome(player_name):
     return f"Hello {player_name} and welcome to the World of Games (WoG).\nHere you can find many cool games to play.\n"
 
