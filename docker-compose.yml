@@ -1,0 +1,7 @@
+version: '2'
+services:
+  game:
+    build: .
+    ports:
+      - "8777:8777"
+    image: daniele11/worldofgames:latest
