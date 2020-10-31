@@ -20,7 +20,7 @@ pipeline {
     }
     stage('e2e unit test') {
       steps{
-      sh 'echo e2e unit test'
+      sh 'echo e2e test'
       sh 'python e2e.py'
       }
     }
